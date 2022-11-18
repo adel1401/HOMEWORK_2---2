@@ -6,7 +6,7 @@ public class Truck extends Transport{
     @Override
     public void print() {
         System.out.println("Truck{" +
-                "\nname='" + getName() +
+                "\nname=" + getName() +
                 "\nmodel= " + getModel() +
                 "\ndata=" + getData()+
                 "\ncolor=" + getColor()+

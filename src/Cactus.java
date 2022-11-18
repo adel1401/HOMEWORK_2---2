@@ -6,7 +6,7 @@ public class Cactus extends Plants{
     @Override
     public void print() {
         System.out.println("Cactus{" +
-                "\nname='" + getName() +
+                "\nname=" + getName() +
                 "\ntimeLive="  + getTimeLive()+
                 "\ncolor=" + getColor() +
                 '}');

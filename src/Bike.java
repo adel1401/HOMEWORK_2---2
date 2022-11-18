@@ -6,7 +6,7 @@ public class Bike extends  Transport{
     @Override
     public void print() {
         System.out.println("Bike{" +
-                "\nname='" + getName() +
+                "\nname=" + getName() +
                 "\nmodel= " + getModel() +
                 "\ndata=" + getData()+
                 "\ncolor=" + getColor()+

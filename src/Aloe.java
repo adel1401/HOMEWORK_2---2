@@ -6,7 +6,7 @@ public class Aloe extends Plants{
     @Override
     public void print() {
         System.out.println("Aloe{" +
-                "\nname='" + getName() +
+                "\nname=" + getName() +
                 "\ntimeLive="  + getTimeLive()+
                 "\ncolor=" + getColor() +
                 '}');
